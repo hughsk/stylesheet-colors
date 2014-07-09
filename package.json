@@ -1,0 +1,38 @@
+{
+  "name": "stylesheet-colors",
+  "version": "1.0.0",
+  "description": "Get a unique list of all the colors used in your current page's stylesheets",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "beefy test.js:bundle.js --index test.html --open"
+  },
+  "author": {
+    "name": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "http://hughsk.io/"
+  },
+  "dependencies": {
+    "array-flatten": "0.0.2",
+    "sliced": "0.0.5",
+    "uniq": "^1.0.1"
+  },
+  "devDependencies": {
+    "beefy": "^2.0.2",
+    "tape": "^2.13.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/stylesheet-colors.git"
+  },
+  "keywords": [
+    "css",
+    "browser",
+    "browserify",
+    "stylesheet"
+  ],
+  "homepage": "https://github.com/hughsk/stylesheet-colors",
+  "bugs": {
+    "url": "https://github.com/hughsk/stylesheet-colors/issues"
+  }
+}
